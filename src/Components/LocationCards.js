@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Japan from '../Assets/Images/japan.jpg';
 import Brazil from '../Assets/Images/brazil.jpg';
 import Norway from '../Assets/Images/norway.jpg';

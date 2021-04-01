@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import home from '../Assets/Images/home.jpg';
 import ocean from '../Assets/Images/ocean.jpg';
 import desert from '../Assets/Images/desert.jpg';
@@ -10,21 +10,21 @@ const Information = () => {
         <div className="info">
             <div className="blog">
                 <div className="blog-main">
-                    <img src={home} />
+                    <img src={home} alt="The Kansas City skyline at night time." />
                     <h1>Explore: The City of Fountains</h1>
                 </div>
             </div>
             <div className="sub">
                     <div className="sub-blogs">
-                        <img src={ocean} />
+                        <img src={ocean} alt="ocean water."/>
                         <p>10 Surprising Facts About the Ocean</p>
                     </div>
                     <div className="sub-blogs">
-                        <img src={river} />    
+                        <img src={river} alt="a river in the forest" />    
                         <p>These Are the Most Visited Mountain Ranges</p>
                     </div>
                     <div className="sub-blogs">
-                        <img src={desert} />
+                        <img src={desert} alt="a desert"/>
                         <p>Suprisingly Beautiful Desert Destinations</p>
                     </div>
             </div>
