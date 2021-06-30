@@ -25,7 +25,7 @@ const Information = () => {
                     </div>
                     <div className="sub-blogs">
                         <img src={desert} alt="a desert"/>
-                        <p>Suprisingly Beautiful Desert Destinations</p>
+                        <p> Beautiful Desert Destinations</p>
                     </div>
             </div>
             <div class="custom-shape-divider-bottom-1615320177">

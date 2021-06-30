@@ -19,27 +19,29 @@
   left: 65px;
   top: 30px;
   color: white;
+  cursor: pointer;
 }
 
-.social {
+.navbar-links {
   float: right;
   position: absolute;
   right: 65px;
   top: 35px;
 }
 
-.social li {
+.navbar-links li {
   color: white;
   text-decoration: none;
   list-style-type: none;
   display: inline;
   margin: 15px;
-  font-size: 30px;
-  transition: .3s ease;
+  font-size: 20px;
+  transition: .3s;
 }
 
-.social li:hover {
-  color: #6f9bd1;
+.navbar-links li:hover {
+  color: #686868;
+  cursor: pointer;
 }
 
 .greeting {
@@ -57,8 +59,36 @@
   color: white;
   position: absolute;
   font-size: 6rem;
-  top: 400px;
+  top: 350px;
   left: 500px;
+}
+
+.greeting p {
+  width: 700px;
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 490px;
+  left: 600px;
+}
+
+.greeting button {
+  height: 55px;
+  width: 200px;
+  position: absolute;
+  top: 580px;
+  left: 800px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.greeting button:hover {
+  background-color: white;
+  color: #254369;;
 }
 
 .location-cards-header {
@@ -143,8 +173,7 @@ button:hover {
 
 .blog {
   height: 400px;
-  width: 700px;
-  border: 2px solid red;  
+  width: 700px; 
   margin-bottom: 100px;
   overflow: hidden;
 }
@@ -198,27 +227,11 @@ button:hover {
   width: 250px;
   font-size: 18px;
   cursor: pointer;
+  transition: .3s;
 }
 
-.custom-shape-divider-bottom-1615320177 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1615320177 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-bottom-1615320177 .shape-fill {
-  fill: #254369;
+.sub-blogs p:hover {
+  color: #6f9bd1;
 }
 
 .subscribe {
