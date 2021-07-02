@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from '@reach/router';
 import Japan from '../Assets/Images/japan.jpg';
 import Brazil from '../Assets/Images/brazil.jpg';
 import Norway from '../Assets/Images/norway.jpg';
@@ -18,7 +19,7 @@ const LocationCards = () => {
                 <div className="card-text">
                     <h3>Japan</h3>
                     <p>Lorem ipsum sit amet dolore...</p>
-                    <button>Info</button>
+                    <Link to="/japan"><button>Visit</button></Link>>
                 </div>
             </div>
             <div className="card">
@@ -26,7 +27,7 @@ const LocationCards = () => {
                 <div className="card-text">
                     <h3>Brazil</h3>
                     <p>Lorem ipsum sit amet dolore...</p>
-                    <button>Info</button>
+                    <Link to="/brazil"><button>Visit</button></Link>
                 </div>
             </div>
             <div className="card">
@@ -34,7 +35,7 @@ const LocationCards = () => {
                 <div className="card-text">
                     <h3>Norway</h3>
                     <p>Lorem ipsum sit amet dolore...</p>
-                    <button>Info</button>
+                    <Link to="/norway"><button>Visit</button></Link>
                 </div>
             </div>
             <div className="card">
@@ -42,7 +43,7 @@ const LocationCards = () => {
                 <div className="card-text">
                     <h3>Austrailia</h3>
                     <p>Lorem ipsum sit amet dolore...</p>
-                    <button>Info</button>
+                    <Link to="/austrailia"><button>Visit</button></Link>
                 </div>
             </div>
         </div>

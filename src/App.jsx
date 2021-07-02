@@ -1,20 +1,23 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Greeting from './Components/Greeting';
-import LocationCards from './Components/LocationCards';
-import Information from './Components/Information';
-import Forms from './Components/Forms';
-import Footer from './Components/Footer';
+import {Router} from '@reach/router';
+import Home from './Pages/Home';
+import Japan from './Pages/Japan';
+import Brazil from './Pages/Brazil';
+import Norway from './Pages/Norway';
+import Austrailia from './Pages/Austrailia';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Greeting />
-      <LocationCards />
-      <Information />
-      <Forms />
-      <Footer />
+  
+      <Router>
+        <Home path="/" />
+        <Japan path="/japan" />
+        <Brazil path="/brazil" />
+        <Norway path="/norway" />
+        <Austrailia path="/austrailia" />
+      </Router>
+
     </div>
   );
 }
