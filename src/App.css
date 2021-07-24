@@ -22,6 +22,11 @@
   cursor: pointer;
 }
 
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-links {
   float: right;
   position: absolute;
@@ -315,4 +320,243 @@ button:hover {
 
 .links li:hover {
   color: #6f9bd1;
+}
+
+/* Japan page styling starts here */
+
+.japan-page-top {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.japan-page-top img {
+  height: 900px;
+  width: 100%;
+  background-size: fill;
+}
+
+.japan-intro {
+  height: 400px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-facts {
+  height: 300px;
+  width: 70%;
+  border: 2px solid black;
+}
+
+.japan-quote {
+  height: 400px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.japan-information {
+  height: 700px;
+  width: 100%;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-header {
+  height: 600px;
+  width: 70%;
+  border: 2px solid red;
+}
+
+.quote-banner {
+  position: absolute;
+  z-index: 0;
+  height: 200px;
+  width: 70%;
+  border: 2px solid red;
+  background-color: teal;
+}
+
+.quote-banner-image {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: gray;
+  position: absolute;
+  z-index: 1;
+  left: 420px;
+}
+
+/* Japan page styling stops here */
+
+/* Brazil styling starts here */
+
+.brazil-page-top {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.brazil-page-top img {
+  height: 800px;
+  width: 100%;
+  background-size: auto;
+}
+
+.brazil-intro {
+  height: 400px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brazil-quote {
+  height: 400px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brazil-information {
+  height: 700px;
+  width: 100%;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Brazil styling stops here */
+
+/* Norway styling starts here */
+
+.norway-page-top {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.norway-page-top img {
+  height: 900px;
+  width: 100%;
+  background-size: auto;
+}
+
+.norway-intro {
+  height: 400px;
+  width: 100%;
+  border: 2px solid red
+  ;display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.norway-quote {
+  height: 400px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.norway-information {
+  height: 700px;
+  width: 100%;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Norway styling stops here */
+
+/* Australia styling starts here */
+
+.australia-page-top {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.australia-page-top img {
+  height: 950px;
+  width: 100%;
+  background-size: auto;
+}
+
+.australia-intro {
+  height: 400px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.australia-quote {
+  height: 400px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.australia-information {
+  height: 700px;
+  width: 100%;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Australia styling stops here */
+
+.locations-dashboard {
+  height: 807px;
+  width: 100%;
+  display: flex;
+}
+
+.blog-dashboard {
+  height: 807px;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.agent-dashboard {
+  height: 807px;
+  width: 100%;
+  border: 2px solid red;
+}
+
+.dashboard-left {
+  height: 805px;
+  width: 50%;
+}
+
+.dashboard-left img {
+  height: 820px;
+  width: 954px;
+}
+
+
+.dashboard-right {
+  height: 805px;
+  width: 50%;
+  border: 2px solid black;
 }

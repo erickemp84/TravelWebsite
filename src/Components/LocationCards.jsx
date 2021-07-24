@@ -10,7 +10,7 @@ const LocationCards = () => {
     return (
         <>
         <div className="location-cards-header">
-            <h1>Travel to These Destinations</h1>
+            <h1>Featured Destinations</h1>
         </div>
         <div className="location-cards">
             
