@@ -551,12 +551,42 @@ button:hover {
 
 .dashboard-left img {
   height: 820px;
-  width: 954px;
+  width: 956px;
 }
-
 
 .dashboard-right {
-  height: 805px;
+  height: 807px;
   width: 50%;
   border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.locations-text {
+  height: 600px;
+  width: 700px;
+  border: 2px solid black;
+}
+
+.continent-boxes {
+  height: 400px;
+  width: 700px;
+  border: 2px solid orange;
+  display: flex;
+}
+
+.north-america, .south-america {
+  height: 200px;
+  width: 345px;
+  border: 2px solid blue;
+}
+
+.europe, .asia {
+  height: 200px;
+  width: 345px;
+  border: 2px solid black;
+}
+
+
+
