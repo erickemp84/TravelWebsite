@@ -532,12 +532,6 @@ button:hover {
   display: flex;
 }
 
-.blog-dashboard {
-  height: 807px;
-  width: 100%;
-  border: 2px solid red;
-}
-
 .agent-dashboard {
   height: 807px;
   width: 100%;
@@ -547,6 +541,7 @@ button:hover {
 .dashboard-left {
   height: 805px;
   width: 50%;
+  border: 2px solid yellow;
 }
 
 .dashboard-left img {
@@ -563,30 +558,35 @@ button:hover {
   justify-content: center;
 }
 
+.agent-dashboard-text {
+  height: 600px;
+  width:80%;
+  border: 2px solid purple;
+}
+
 .locations-text {
   height: 600px;
   width: 700px;
   border: 2px solid black;
 }
 
-.continent-boxes {
-  height: 400px;
-  width: 700px;
-  border: 2px solid orange;
+.blog-section-1, .blog-section-2 {
+  height: 807px;
+  width: 100%;
+  border: 2px solid red;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.north-america, .south-america {
-  height: 200px;
-  width: 345px;
-  border: 2px solid blue;
+.blog-article {
+  height: 600px;
+  width: 400px;
+  border: 2px solid red;
+  margin: 10px;
 }
 
-.europe, .asia {
-  height: 200px;
-  width: 345px;
-  border: 2px solid black;
+.blog-article img {
+  height: 60%;
+  width: 100%;
 }
-
-
-
