@@ -19,7 +19,7 @@ const LocationCards = () => {
                 <div className="card-text">
                     <h3>Japan</h3>
                     <p>Lorem ipsum sit amet dolore...</p>
-                    <Link to="/japan"><button>Visit</button></Link>>
+                    <Link to="/japan"><button>Visit</button></Link>
                 </div>
             </div>
             <div className="card">

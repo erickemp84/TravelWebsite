@@ -140,10 +140,8 @@
 .card-text {
   height: 150px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 30px;
   transition: .3s;
 }
 
@@ -155,11 +153,11 @@
 .card-text button {
   height: 30px;
   width: 70px;
-  margin-top: 15px;
   background-color: #254369;
   color: white;
   border: none;
   border-radius: 5px;
+  margin: 15px 0px 0px 0px;
 }
 
 button:hover {
@@ -570,10 +568,14 @@ button:hover {
   border: 2px solid black;
 }
 
+.blog-heading {
+  margin-left: 120px;
+  margin-top: 70px;
+}
+
 .blog-section-1, .blog-section-2 {
   height: 807px;
   width: 100%;
-  border: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -582,8 +584,11 @@ button:hover {
 .blog-article {
   height: 600px;
   width: 400px;
-  border: 2px solid red;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
   margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, 
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .blog-article img {
