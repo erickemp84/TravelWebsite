@@ -237,62 +237,6 @@ button:hover {
   color: #6f9bd1;
 }
 
-.subscribe {
-  height: 400px;
-  width: 600px;
-  border-radius: 5px;
-  background-color: white;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  vertical-align: column;
-}
-
-.sub-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.sub-form h1, button {
-  margin: 30px;
-}
-
-.guestbook {
-  height: 400px;
-  width: 600px;
-  border-radius: 5px;
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.guestbook h1 {
-  margin-top: 20px;
-  width: 80%;
-}
-
-.sub-form button, .guestbook button {
-  background-color: #254369;
-  color: white;
-  border: none;
-  height: 30px;
-  width: 70px;
-  border-radius: 5px;
-}
-
-.footer {
-  height: 700px;
-  width: 100%;
-  background-color: #254369;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .links {
   height: 100px;
   width: 100%;
